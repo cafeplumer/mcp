@@ -19,6 +19,27 @@
   color: white !important;
 }
 
+h2.sub-title-home {
+  font-size: 75px !important;
+}
+
+h1.title-home {
+  font-size: 60px !important;
+}
+
+.col-md-4.col-sm-12.contact-bar {
+    margin-left: -30px;
+    color: #4B3621 !important;
+    font-size: 30px;
+}
+
+.col-md-4.col-sm-12.contact-bar h3 {
+  font-size: 50px !important;
+}
+
+p.tg {
+  font-size: 15px !important;
+}
 /* ----------------------------------------------------
   General
 ------------------------------------------------------- */

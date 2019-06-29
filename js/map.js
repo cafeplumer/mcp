@@ -11,4 +11,4 @@ L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 var marker = L.marker(ga).addTo(mymap);
 
 // ajout d'un popup
-marker.bindPopup('<h3>Monsieur Café Plumer</h3>');
+marker.bindPopup('<h3>Galerie et Atelier Monsieur Café Plumer</h3>');

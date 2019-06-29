@@ -6,6 +6,16 @@
   
 ################################################################# */ 
 
+/* Modif Map */
+#map {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.andadd {
+  margin-bottom: 50px !important;
+}
 /* Modif Plumer */
 .fa, .fa-facebook {
   color: white !important;
@@ -28,9 +38,10 @@ h1.title-home {
 }
 
 .col-md-4.col-sm-12.contact-bar {
-    margin-left: -30px;
+    /* margin-left: -30px; */
     color: #4B3621 !important;
-    font-size: 30px;
+    font-size: 18px;
+    padding-bottom: 20px;
 }
 
 .col-md-4.col-sm-12.contact-bar h3 {

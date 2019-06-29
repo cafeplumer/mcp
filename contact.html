@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Artiste peintre cubain. Gallerie et Atelier d'Art à Gap, 19 rue David Martin.">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
     <title>Monsieur Cafe Plumer Artiste Peintre</title>
 
     <!-- Bootstrap core CSS -->
@@ -60,14 +62,12 @@
 
     <div class="canvas contact-page">
       <div class="contact-bg col-md-8 col-sm-12">
-        <img src="img/monsieurcafeplumer.jpg" alt="" width="100%">
+        <div id="map"></div>
       </div>
       <div class="col-md-4 col-sm-12 contact-bar">
-<!--         <img class="map-img" src="img/map.jpg" alt="" width="100%">
- -->        
- <p>
-  <iframe width="100%" height="300px" frameborder="0" allowfullscreen src="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_322167?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p class="tg"><a href="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_322167">Voir en plein écran</a></p>
- </p>
+                <img class="map-img" src="img/monsieurcafeplumer.jpg" alt="" width="100%">
+               
+
     <h3 class="interest-text text-center"> Contact </h3>
 
         <div class="col-md-12 add-text">
@@ -79,11 +79,11 @@
         </div>
         <br>
 
-        <div class="col-md-12 add-text">
+        <div class="col-md-12 add-text andadd">
         Ouvert du Lundi au Samedi
         Galerie-Atelier
         <br>
-        Contactez-moi ! : <a href="mailto:eplumer77@yahoo.es">Bienvenue</a>
+        Contactez-moi ! : <strong><a href="mailto:eplumer77@yahoo.es">Bienvenue</a></strong> 
         </div>
 <!--         <br>
         <div class="col-sm-12 col-md-12">
@@ -114,6 +114,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+   <script src="js/map.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="dist/js/jasny-bootstrap.min.js"></script>

@@ -38,6 +38,7 @@ footer {
     div.canvas {
       /*margin-top: -50px !important;*/
       height: 110% !important;
+      height: 150% !important;
     }
     .carousel, .item, .active {
   height: 110% !important;
@@ -46,10 +47,10 @@ footer {
 }
 /* Fade transition for carousel items */
 .carousel .item {
-    -webkit-transition: opacity 3s; 
-    -moz-transition: opacity 3s; 
-    -ms-transition: opacity 3s; 
-    -o-transition: opacity 3s; 
+    -webkit-transition: opacity 3s;
+    -moz-transition: opacity 3s;
+    -ms-transition: opacity 3s;
+    -o-transition: opacity 3s;
     transition: opacity 3s;
     transition:.6s;
 }
